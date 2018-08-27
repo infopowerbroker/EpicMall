@@ -1,3 +1,4 @@
+notify infopowerbroker;
 cli_execute("mallbuy 3 Acqua Del Piatto Merlot @1000");
 cli_execute("mallbuy 3 Acque Luride Grezze Cabernet @1000");
 cli_execute("mallbuy 3 Agitated Turkey @1000");
