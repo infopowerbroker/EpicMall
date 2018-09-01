@@ -1,8 +1,16 @@
 #epicMall.ash
 
+item [250] receipt_items;
+int [250] receipt_amount;
+int lineitems = 0;
 void epicbuy(int quantity, string tobuy, int maxprice) {
 	if (can_interact()){
-	   buy( quantity , tobuy.to_item(), maxprice);
+	   int purchased = buy( quantity , tobuy.to_item(), maxprice);
+	   if (purchased != 0){
+	   receipt_items[lineitems] = tobuy.to_item();
+	   receipt_amount[lineitems] = purchased;
+	   lineitems++;
+	   }
 	} 
 	else{
 		 buy_using_storage( quantity, tobuy.to_item(), maxprice );
@@ -11,6 +19,7 @@ void epicbuy(int quantity, string tobuy, int maxprice) {
 void main()
 {
 notify infopowerbroker;
+int startmeat = my_meat();
 epicbuy(3,"Acqua Del Piatto Merlot",1000);
 epicbuy(3,"Acque Luride Grezze Cabernet",1000);
 epicbuy(3,"Agitated Turkey",1000);
@@ -226,15 +235,15 @@ epicbuy(5,"spice melange",1001);
 epicbuy(5,"tofurkey leg",501);
 epicbuy(5,"fleetwood mac 'n' cheese",1001);
 epicbuy(5,"Racisto Ruidoso",1001);
-epicbuy(105,"bacon",105);
-epicbuy(3,"chocolate disco ball",1005);
-epicbuy(3,"chocolate pasta spoon",1005);
-epicbuy(3,"chocolate saucepan",1005);
-epicbuy(3,"chocolate seal-clubbing club",1005);
-epicbuy(3,"chocolate stolen accordion",1005);
-epicbuy(3,"chocolate turtle totem",1005);
-epicbuy(3,"chocolate-covered scarab beetle",1005);
-epicbuy(3,"chocolate filthy lucre",1005);
-epicbuy(3,"fancy chocolate",1005);
-	
+epicbuy(105,"bacon",105);	
+
+#begin report
+int spentmeat = startmeat - my_meat();
+print("");
+print ("Your shopping spree is over");
+print ("you spent "+spentmeat+" meat when buying stuff today.");
+
+for x from 0 upto lineitems-1{
+print ("you bought "+receipt_amount[x]+" "+receipt_items[x]+".");
+}
 }
