@@ -226,5 +226,15 @@ epicbuy(5,"spice melange",1001);
 epicbuy(5,"tofurkey leg",501);
 epicbuy(5,"fleetwood mac 'n' cheese",1001);
 epicbuy(5,"Racisto Ruidoso",1001);
-epicbuy(105,"bacon",105);	
+epicbuy(105,"bacon",105);
+epicbuy(3,"chocolate disco ball",1005);
+epicbuy(3,"chocolate pasta spoon",1005);
+epicbuy(3,"chocolate saucepan",1005);
+epicbuy(3,"chocolate seal-clubbing club",1005);
+epicbuy(3,"chocolate stolen accordion",1005);
+epicbuy(3,"chocolate turtle totem",1005);
+epicbuy(3,"chocolate-covered scarab beetle",1005);
+epicbuy(3,"chocolate filthy lucre",1005);
+epicbuy(3,"fancy chocolate",1005);
+	
 }
