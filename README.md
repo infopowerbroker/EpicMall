@@ -5,14 +5,15 @@ What does it do?
 ----------------
 This is a basic script that tries to buy high quality food for bargain basement prices. 
 The intent is to run once a day as part of post breakfast activities to get 1/day items.
+In aftercore, this will buy the items using your meat on hand. if in HC/Ronin, it will buy using your meat from Hagnk's.
 
 The script can be edited to add items or adjust requested amounts.
 
 Here is how it works:
 ---------------------
-cli_execute("mallbuy 3 Perfect old-fashioned @1000");
+epicbuy(3,"Perfect old-fashioned",1000);
 
-Mallbuy [quantity requested] [item] @[maxprice]
+epicbuy([quantity requested] ["item name"], [maxprice]);
 
 Any variable can be adjusted, and new lines for different items can be added.
 
