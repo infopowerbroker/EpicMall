@@ -213,7 +213,7 @@ epicbuy(3,"Hawking's Elixir of Brilliance",700);
 epicbuy(3,"Connery's Elixir of Audacity",700);
 epicbuy(3,"potion of temporary gr8tness",101);
 epicbuy(3,"fancy chocolate car",1001);
-epicbuy(5,"dry noodle",401);
+epicbuy(5,"dry noodles",401);
 epicbuy(5,"scrumptious reagent",501);
 epicbuy(5,"Hell ramen",401);
 epicbuy(5,"prismatic wad",1000);
