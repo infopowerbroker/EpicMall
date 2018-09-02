@@ -237,5 +237,5 @@ print ("You spent "+spentmeat+" meat when buying stuff today.");
 for x from 0 upto lineitems-1{
 print ("You bought "+receipt_amount[x]+" "+receipt_items[x]+".");
 }
-print ("You can find exact prices in your session log."
+print ("You can find exact prices in your session log.");
 }
