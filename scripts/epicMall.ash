@@ -229,7 +229,8 @@ epicbuy(5,"Racisto Ruidoso",1001);
 epicbuy(105,"bacon",105);	
 epicbuy(5,"Ol' Scratch's salad fork",1001);
 epicbuy(5,"Gathered Meat-Clip",250);
-epicbuy(5,"Specialty ammo bandolier",750);	
+epicbuy(5,"Specialty ammo bandolier",750);
+epicbuy(5,"perfect ice cube",1001);
 epicbuy(3,"Jam Band Bootleg",100);
 	
 #begin report
