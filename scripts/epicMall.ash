@@ -115,7 +115,7 @@ epicbuy(3,"Grimacite Bock",1000);
 epicbuy(3,"groose grease",1001);
 epicbuy(3,"guy made of bee pollen",1001);
 epicbuy(3,"Hacked gibson",1000);
-epicbuy(3,"hardboiled egg",500);
+epicbuy(3,"hardboiled egg",400);
 epicbuy(3,"Hawking's Elixir of Brilliance",700);
 epicbuy(5,"Hell ramen",401);
 epicbuy(3,"Hodgman's blanket",1000);
