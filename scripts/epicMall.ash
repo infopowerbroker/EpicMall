@@ -184,7 +184,7 @@ epicbuy(3,"Ralph IX cognac",1000);
 epicbuy(3,"Red drunki-bear",1000);
 epicbuy(3,"Retenez L'Herbe Paté",1000);
 epicbuy(3,"Rook cookie",1000);
-epicbuy(3,"Sacramento wine",1000);
+epicbuy(23,"Sacramento wine",1000);
 epicbuy(3,"Sangria de Menthe",1000);
 epicbuy(3,"Sausage wonton",1000);
 epicbuy(3,"Scotch on the rocks",1000);
