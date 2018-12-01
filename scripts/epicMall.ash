@@ -100,6 +100,7 @@ epicbuy(3,"Filet of The Fish",1000);
 epicbuy(3,"Flat cider",1000);
 epicbuy(5,"fleetwood mac 'n' cheese",1001);
 epicbuy(3,"French bronilla brogurt",1000);
+epicbuy(3,"Frosty's frosty mug",1000);
 epicbuy(3,"Frozen banquet",1000);
 epicbuy(3,"Fudge bunny",1000);
 epicbuy(5,"Gathered Meat-Clip",250);
