@@ -238,6 +238,13 @@ epicbuy(3,"Water log",1000);
 epicbuy(3,"Wedge of gray cheese",1000);
 epicbuy(3,"Yellow drunki-bear",1000);
 epicbuy(3,"Zombie",1000);
+	epicbuy(3,"bird rib",101);
+	epicbuy(3,"blessed rustproof +2 gray dragon scale mail",101);
+	epicbuy(3,"Hairpiece On Fire",101);
+	epicbuy(3,"lion oil",101);
+	epicbuy(13,"metal meteoroid",101); 
+	epicbuy(3,"Pack of Alice's Army Cards",101);
+
 
 	
 #begin report
