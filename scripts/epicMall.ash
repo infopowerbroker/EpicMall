@@ -1,6 +1,6 @@
 #epicMall.ash
 #use the following text for a custom daily deed
-#$CUSTOM|Command|Toda y's Epic mall Visit|_EpicMall_Run_ Today|call epicmall.ash|1|Run Infopowerbroker's EpicMall script|You've done a trip to the mall today
+#$CUSTOM|Command|Today's Epic mall Visit|_EpicMall_Run_Today|call epicmall.ash|1|Run Infopowerbroker's EpicMall script|You've done a trip to the mall today
 
 item [250] receipt_items;
 int [250] receipt_amount;
