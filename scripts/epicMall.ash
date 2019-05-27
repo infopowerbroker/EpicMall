@@ -1,4 +1,6 @@
 #epicMall.ash
+#use the following text for a custom daily deed
+#$CUSTOM|Command|Toda y's Epic mall Visit|_EpicMall_Run_ Today|call epicmall.ash|1|Run Infopowerbroker's EpicMall script|You've done a trip to the mall today
 
 item [250] receipt_items;
 int [250] receipt_amount;
@@ -249,6 +251,8 @@ epicbuy(3,"Zombie",1000);
 
 	
 #begin report
+#for daily deed property
+set_property("_EpicMall_Run_Today",1);
 int spentmeat = startmeat - my_meat();
 print("");
 print ("Your shopping spree is over");
