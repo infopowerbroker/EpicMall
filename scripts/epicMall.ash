@@ -176,7 +176,7 @@ epicbuy(3,"Perfect old-fashioned",1000);
 epicbuy(3,"Perfect paloma",1000);
 epicbuy(3,"piddles",101);
 epicbuy(3,"Popular tart",1000);
-epicbuy(3,"potion of temporary gr8tness",1001);
+epicbuy(3,"potion of temporary gr8ness",1001);
 epicbuy(3,"powdered gold",1001);
 epicbuy(3,"prismatic wad",1001);
 epicbuy(5,"prismatic wad",1000);
