@@ -291,7 +291,6 @@ epicbuy(10,"absentee voter ballot",1000);
 epicbuy(10,"pocket wish",1000);
 epicbuy(10,"cornucopia",1000);
 epicbuy(10,"snow berries",1000);
-epicbuy(10,"ice harvest",700);
 epicbuy(10,"frost flower",1000);
 epicbuy(10,"tennis ball",1000);
 epicbuy(10,"GameInformPowerDailyPro magazine",1000);
