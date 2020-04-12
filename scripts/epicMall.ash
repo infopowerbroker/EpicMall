@@ -283,7 +283,7 @@ epicbuy(10,"PirateRealm guest pass",1000);
 epicbuy(10,"FantasyRealm guest pass",1000);
 epicbuy(10,"Neverending Party guest pass",1000);
 epicbuy(10,"driftwood beach comb",1000);
-epicbuy(10,"Grain of sand",150);
+epicbuy(10,"grain of sand",150);
 epicbuy(10,"small pile of sand",1000);
 epicbuy(10,"pile of sand",1000);
 epicbuy(10,"large pile of sand",1000);
@@ -291,15 +291,29 @@ epicbuy(10,"absentee voter ballot",1000);
 epicbuy(10,"pocket wish",1000);
 epicbuy(10,"cornucopia",1000);
 epicbuy(10,"snow berries",1000);
+epicbuy(10,"ice harvest",700);
 epicbuy(10,"frost flower",1000);
 epicbuy(10,"tennis ball",1000);
 epicbuy(10,"GameInformPowerDailyPro magazine",1000);
 epicbuy(10,"time's arrow",1000);
 epicbuy(10,"Peppermint sprout",1000);
 epicbuy(10,"peppermint twist",1000);
+epicbuy(10,"piece of driftwood",1000);
+epicbuy(10,"Bastille Battalion control rig loaner voucher",1000);
+epicbuy(10,"Dish of Clarified Butter",280);
+epicbuy(10,"time residue",1000);
+epicbuy(10,"Memory Disk, Alpha",1000);
+epicbuy(10,"Deep Machine Tunnels snowglobe",500);
+epicbuy(10,"Gift Card",1000);
+epicbuy(10,"tiny bottle of absinthe",750);
+epicbuy(10,"llama lama gong",1000);
+epicbuy(10,"Transporter transponder",1000);
+epicbuy(10,"Astral mushroom",1000);
+epicbuy(10,"Tales of Spelunking",1000);
+epicbuy(10,"grimstone mask",1000);
+epicbuy(10,"devilish folio",1000);
 
 
-	
 #begin report
 #for daily deed property
 set_property("_EpicMall_Run_Today",1);
