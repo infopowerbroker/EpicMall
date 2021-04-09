@@ -5,6 +5,16 @@
 item [250] receipt_items;
 int [250] receipt_amount;
 int lineitems = 0;
+void raffletime(){
+if(can_interact()){
+cli_execute("try; raffle 1 inventory");
+print ("Your entered in a totally legal raffle one time USING YOUR OWN MONEY");
+}
+else{
+cli_execute("try; raffle 1 storage");
+print ("Your entered in a totally legal raffle one time USING YOUR MONEY FROM YOUR PAST LIFE");
+}
+}
 void epicbuy(int quantity, string tobuy, int maxprice) {
 	if (can_interact()){
 	   int purchased = buy( quantity , tobuy.to_item(), maxprice);
@@ -22,6 +32,7 @@ void main()
 {
 notify infopowerbroker;
 int startmeat = my_meat();
+raffletime();
 epicbuy(10,"Accidental mutton",1000);
 epicbuy(10,"Acqua Del Piatto Merlot",1000);
 epicbuy(10,"Acque Luride Grezze Cabernet",1000);
