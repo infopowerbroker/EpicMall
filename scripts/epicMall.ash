@@ -31,7 +31,7 @@ void epicbuy(int quantity, string tobuy, int maxprice) {
 void main()
 {
 notify infopowerbroker;
-int startmeat = my_meat();
+int startmeat = my_meat() + my_storage_meat();
 raffletime();
 epicbuy(10,"Accidental mutton",1000);
 epicbuy(10,"Acqua Del Piatto Merlot",1000);
@@ -328,7 +328,7 @@ epicbuy(10,"devilish folio",1000);
 #begin report
 #for daily deed property
 set_property("_EpicMall_Run_Today",1);
-int spentmeat = startmeat - my_meat();
+int spentmeat = startmeat - my_meat() - my_storage_meat();
 print("");
 print ("Your shopping spree is over");
 print ("You spent "+spentmeat+" meat when buying stuff today.");
