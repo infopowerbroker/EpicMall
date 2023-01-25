@@ -24,7 +24,7 @@ How do I use it?
 First, install it by running this command in KoLmafia's graphical CLI:
 
 <pre>
-svn checkout https://github.com/infopowerbroker/epicmall/branches/release/
+git checkout https://github.com/infopowerbroker/epicmall.git release
 </pre>
 
 Once it's installed, go to the Scripts menu, then select "EpicMall.ash". 
@@ -32,7 +32,7 @@ Once it's installed, go to the Scripts menu, then select "EpicMall.ash".
 To update the script itself, run this command in the graphical CLI:
 
 <pre>
-svn update
+git update
 </pre>
 
 This script is intended for once-daily use. Do not abuse because you can only buy items 1x day, so it is wasting everyone's time :)
