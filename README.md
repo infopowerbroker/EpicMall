@@ -24,7 +24,7 @@ How do I use it?
 First, install it by running this command in KoLmafia's graphical CLI:
 
 <pre>
-git checkout https://github.com/infopowerbroker/epicmall.git release
+git checkout infopowerbroker/epicmall release
 </pre>
 
 Once it's installed, go to the Scripts menu, then select "EpicMall.ash". 
